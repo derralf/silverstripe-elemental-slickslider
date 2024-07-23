@@ -1,0 +1,28 @@
+#---
+#Name: elementalslickslider
+#---
+#Derralf\Elements\SlickSlider\Element\ElementSlickSliderHolder:
+#  slick_carousel_default_config: '{"speed":200,"dots":false,"infinite":true,"slidesToShow":5,"centerMode":false,"variableWidth":false,"adaptiveHeight":true,"responsive":[{"breakpoint":1200,"settings":{"slidesToShow": 1}},{"breakpoint":992,"settings":{},{"breakpoint":768,"settings":{}},{"breakpoint":600,"settings":{}}]}'
+#  # add StyledTitle
+#  extensions:
+#    - Derralf\ElementalStyling\StyledTitle
+#  # disable StyledTitle
+#  title_tag_variants: null
+#  title_alignment_variants: null
+#  # styles
+#  style_default_description: 'Standard: 100% Content-Breite'
+#  styles:
+#    BS5RightFiftyFifty: "BS5 Slider rechts, 50%"
+#    BS5LeftFiftyFifty: "BS5 Slider links, 50%"
+#
+#Derralf\Elements\SlickSlider\Model\ElementSlickSliderItem:
+#  use_content: true
+#  readmore_link_class: 'btn btn-sm btn-primary btn-readmore'
+#  styles:
+#    default: 'default'
+#    bottom-left: 'links unten'
+#    center-center: 'zentriert'
+#    grey: 'grau'
+#    primary: 'petrol'
+#    primary-dark: 'petrol dunkel'
+#    secondary: 'grün'

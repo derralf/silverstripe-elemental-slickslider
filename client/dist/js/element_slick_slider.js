@@ -1,0 +1,1 @@
+jQuery(".element-slick-slider").slick({rows:0});

@@ -1,0 +1,36 @@
+{
+    "name": "derralf/elemental-slickslider",
+    "description": "A content block with a basic Slick Carousel silverstripe-elemental module",
+    "type": "silverstripe-vendormodule",
+    "keywords": [
+        "silverstripe",
+        "elemental",
+        "content blocks"
+    ],
+    "license": "BSD-3-Clause",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "dnadesign/silverstripe-elemental": "^4 || ^5",
+        "silverstripe/linkfield": "^3",
+        "jonom/focuspoint": "^5.0",
+        "bummzack/sortablefile": "^2.2",
+        "symbiote/silverstripe-gridfieldextensions": "^4.0"
+    },
+    "suggest": {
+        "derralf/elemental-styling": "Adds some styling options"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        },
+        "expose": [
+            "client/dist"
+        ]
+    },
+    "autoload": {
+        "psr-4": {
+            "Derralf\\Elements\\SlickSlider\\": "src/"
+        }
+    }
+}
