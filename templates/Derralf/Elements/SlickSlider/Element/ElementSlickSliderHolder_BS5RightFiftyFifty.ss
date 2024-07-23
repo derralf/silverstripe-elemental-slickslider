@@ -12,7 +12,7 @@
     </div>
     <div class="col-12 col-lg-6 text-wrap text-wrap-left">
         <% if $ShowTitle %>
-            <% include Derralf\\Elements\\ElementTitleStyled %>
+           <% include Derralf\\Elements\\SlickSlider\\Title %>
         <% end_if %>
 
         <% if $HTML %>
@@ -21,7 +21,7 @@
     </div>
 <% else %>
     <% if $ShowTitle %>
-        <% include Derralf\\Elements\\ElementTitleStyled %>
+        <% include Derralf\\Elements\\SlickSlider\\Title %>
     <% end_if %>
 
     <% if $HTML %>
