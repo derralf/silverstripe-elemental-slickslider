@@ -52,8 +52,18 @@ class ElementSlickSliderItem extends DataObject
 
     private static $belongs_many_many = [];
 
+
     private static $owns = [
         'Image',
+        'ReadMoreLink'
+    ];
+
+    private static array $cascade_deletes = [
+        'ReadMoreLink'
+    ];
+
+    private static $cascade_duplicates = [
+        'ReadMoreLink'
     ];
 
     private static $defaults = [
